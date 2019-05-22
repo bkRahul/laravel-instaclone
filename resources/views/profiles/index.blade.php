@@ -21,9 +21,9 @@
                 @can('update', $user->profile)<div class="prof__edit"><a href="/profile/{{ $user->id }}/edit">Edit Profile</a></div>@endcan
                 <div class="prof__status">
                     <ul>
-                        <li><b>{{ $user->posts->count() }}</b> posts</li>
-                        <li><b>{{$user->profile->followers->count()}}</b> followers</li>
-                        <li><b>{{$user->following->count()}}</b> following</li>
+                        <li><b>{{$postsCount}}</b> posts</li>
+                        <li><b>{{$followersCount}}</b> followers</li>
+                        <li><b>{{$followingCount}}</b> following</li>
                     </ul>
                 </div>   
                 <div class="prof__details">
