@@ -10689,7 +10689,7 @@ a.text-dark:focus {
 .profile .profile__section .prof__head {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
 }
 
 .profile .profile__section .prof__status ul {
@@ -10726,5 +10726,21 @@ a.text-dark:focus {
 
 .single_post .single_post__img img {
   width: 100%;
+}
+
+.home_posts .home_post__img img {
+  width: 100%;
+}
+
+.single_post__head,
+.home_post__head {
+  display: flex;
+  align-items: center;
+}
+
+.single_post__head img,
+.home_post__head img {
+  width: 50px;
+  height: 50px;
 }
 
