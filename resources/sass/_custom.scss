@@ -29,7 +29,7 @@
         .prof__head {
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            align-items: start;
         }
         .prof__status {
             ul {
@@ -69,5 +69,20 @@
 .single_post {
     .single_post__img img {
         width: 100%;
+    }
+}
+
+.home_posts {
+    .home_post__img img {
+        width: 100%;
+    }
+}
+
+.single_post__head, .home_post__head {
+    display: flex;
+    align-items: center;
+    img {
+        width: 50px;
+        height: 50px;
     }
 }
