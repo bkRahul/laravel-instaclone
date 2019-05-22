@@ -17,12 +17,12 @@ Run git clone https://github.com/bkRahul/laravel-instaclone.git laravel-instaclo
 
 #Features
 
-1 . Built on Laravel 5.8
-2 . Built on Bootstrap 4
-3 . Uses Artisan to manage database migration, schema creations, and create/publish page controller templates
-4 . Dependencies are managed with COMPOSER
-5 . Laravel Scaffolding User Authentication.
-6 . Create Posts, Follow and Unfollow People.
-7 . Makes use of Laravel Mix to compile assets.
-8 . Uses Laravel built in mail services and Mailtrap.
+1 . Built on Laravel 5.8\
+2 . Built on Bootstrap 4\
+3 . Uses Artisan to manage database migration, schema creations, and create/publish page controller templates\
+4 . Dependencies are managed with COMPOSER\
+5 . Laravel Scaffolding User Authentication\
+6 . Create Posts, Follow and Unfollow People\
+7 . Makes use of Laravel Mix to compile assets\
+8 . Uses Laravel built in mail services and Mailtrap\
 9 . Cache for posts Variables
