@@ -1,5 +1,5 @@
 # laravel-instaclone
-instagram clone built using laravel
+instagram clone built using laravel and vue
 
 
 # Installation Instructions
